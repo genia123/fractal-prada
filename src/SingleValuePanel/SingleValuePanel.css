@@ -1,0 +1,25 @@
+.root {
+  border: 1px solid #00d1b2;
+  border-radius: 5px;
+  width: 200px;
+  height: 200px;
+  margin-right: .5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.root:not(:first-child) {
+  margin-left: .5rem;
+}
+
+.value {
+  font-size: 4rem;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.buttons {
+  margin-left: auto;
+  margin-right: auto;
+}

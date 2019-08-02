@@ -1,0 +1,22 @@
+.root {
+  border: 1px solid #00d1b2;
+  border-radius: 5px;
+  width: 200px;
+  height: 200px;
+  margin-right: .5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  font-size: 1.5rem;
+}
+
+.root:not(:first-child) {
+  margin-left: .5rem;
+}
+
+.text {
+  margin-top: auto;
+  margin-bottom: auto;
+}
